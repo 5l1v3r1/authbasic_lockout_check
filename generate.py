@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # This little helper generates a list of invalid base64-encoded username:password sequences, followed by the correct one.
-# The purpose is to speed up the process of creating a payload list useful for account-lockout in web applications whereas HTTP Auth Basic is in place.
+# The purpose is to speed up the process of creating a payload list useful for account-lockout testing in web applications whereas HTTP Auth Basic is in place.
 # Invalid passwords are random strings.
 
 from base64 import b64encode
